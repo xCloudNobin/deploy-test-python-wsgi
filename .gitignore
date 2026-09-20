@@ -1,0 +1,15 @@
+# Virtualenv
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local data (SQLite persistent volume lives here)
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# OS / editor noise
+.DS_Store
+*.log
